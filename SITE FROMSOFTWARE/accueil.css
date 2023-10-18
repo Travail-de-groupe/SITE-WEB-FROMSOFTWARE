@@ -1,0 +1,66 @@
+html {
+
+}
+
+title {
+}
+
+body {
+    background-image : url("images/fromsoftware.webp");
+    background-repeat:no-repeat ;
+    background-size: 100%;
+    text-align: justify;
+
+}
+
+.introduction{
+        
+}
+header{
+    color: orange;
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 350 %;
+    color: white;
+    font-weight: bold;
+    border-style: solid;
+}
+h2{
+
+}
+
+nav{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bold;
+   
+    
+   
+    
+}
+
+.darksouls{
+    border-style: solid; 
+    display: inline;
+    padding: 3%;
+    margin: 1%;
+    
+}
+.armoredcore{
+    border-style: solid;
+    display: inline;
+    padding: 3%;
+    margin: 1%;
+    
+}
+
+.soulslike{
+    border-style: solid;
+    display: inline;
+    padding: 3%;
+    margin: 1%;
+    
+}
