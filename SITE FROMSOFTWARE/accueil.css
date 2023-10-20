@@ -3,6 +3,7 @@ html {
 }
 
 title {
+
 }
 
 body {
@@ -17,7 +18,7 @@ body {
         
 }
 header{
-    color: orange;
+    color: rgb(255, 166, 0);
 }
 h1{
     text-align: center;
@@ -26,6 +27,8 @@ h1{
     color: white;
     font-weight: bold;
     border-style: solid;
+    display: inline;
+
 }
 h2{
 
@@ -46,21 +49,27 @@ nav{
     border-style: solid; 
     display: inline;
     padding: 3%;
-    margin: 1%;
-    
+    margin: 5%;
+    margin-top: 100px
 }
 .armoredcore{
     border-style: solid;
     display: inline;
     padding: 3%;
-    margin: 1%;
-    
+    margin: 5%;
+    margin-top: 100px
+    background-image : url("images/Armored-Core-6-Fires-of-Rubicon-Septiembre-Octubre.jpg");
 }
 
 .soulslike{
     border-style: solid;
     display: inline;
     padding: 3%;
-    margin: 1%;
-    
+    margin: 5%;
+    margin-top: 100px
+
+}
+
+p{
+    margin-bottom: 200px;
 }
