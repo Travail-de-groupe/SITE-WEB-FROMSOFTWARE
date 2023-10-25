@@ -10,11 +10,14 @@ body {
     background-image : url("images/fromsoftware.webp");
     background-repeat:no-repeat ;
     background-size: 100%;
-    text-align: justify;
+    opacity: 1;
+    background-attachment: fixed;
+    text-align: scroll;
 
 }
 
 .introduction{
+    
         
 }
 header{
@@ -46,26 +49,26 @@ nav{
 }
 
 .darksouls{
-    border-style: solid; 
+    border-style: solid;
     display: inline;
     padding: 3%;
-    margin: 5%;
+    margin: 100%;
     margin-top: 100px
 }
 .armoredcore{
     border-style: solid;
     display: inline;
     padding: 3%;
-    margin: 5%;
+    margin: 100%;
     margin-top: 100px
-    background-image : url("images/Armored-Core-6-Fires-of-Rubicon-Septiembre-Octubre.jpg");
+    
 }
 
 .soulslike{
     border-style: solid;
     display: inline;
     padding: 3%;
-    margin: 5%;
+    margin: 100%;
     margin-top: 100px
 
 }
