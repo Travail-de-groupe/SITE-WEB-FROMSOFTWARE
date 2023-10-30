@@ -53,12 +53,12 @@ img{
 
 }
 
-div.Sekirotexte{
+div.Sekirotexte, div.actexte, div.dstexte{
     margin-left: 675px;
     padding-top: 5px;
     
 }
-img.Sekiro{
+img.Sekiro, img.ac, img.ds{
     float: left;
     margin-left: 5px;
     margin-top: 75px;
@@ -67,12 +67,12 @@ img.Sekiro{
     width: 650px;
     height: 500px;
 }
-div.eldentexte{
+div.eldentexte, div.ac2texte, div.ds2texte{
     
     margin-right: 675px;
     padding-top: 5px;
 }
-img.eldenring{
+img.eldenring, img.ac2, img.ds2{
     float: right;
     margin-right: 5px;
     margin-top: 75px;
