@@ -1,78 +1,181 @@
-html {
-
-}
-
-title {
-
-}
-
 body {
-    background-image : url("images/fromsoftware.webp");
-    background-repeat:no-repeat ;
-    background-size: 100%;
-    opacity: 1;
-    background-attachment: fixed;
-    text-align: scroll;
-
-}
-
-.introduction{
-    
-        
-}
-header{
-    color: rgb(255, 166, 0);
-}
-h1{
-    text-align: center;
+   
+    text-align: justify;
+    color: #C7C7C7       ;
+    background-color: #222222;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 350 %;
-    color: white;
     font-weight: bold;
-    border-style: solid;
-    display: inline;
+    
+   
+}
 
+p.sl, p.armoredcore, p.darksouls{
+    text-align: left;
+}
+
+header{
+    border-bottom-style: solid;
+    
+}
+   
+
+h1{
+    text-align: center;
+    border-style: solid;
+    margin: 5px;
+    padding: 5px;
+    background-color: #181818;
+    color: #C7C7C7;
 }
 h2{
-
+    text-align: left;
+    
 }
 
 nav{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    
     font-weight: bold;
-   
+    background-image : url("images/BG.jpg");
+    background-size: 100%;
+    padding: 15%;
+    background-repeat: no-repeat;
     
    
     
 }
 
-.darksouls{
-    border-style: solid;
-    display: inline;
-    padding: 3%;
-    margin: 100%;
-    margin-top: 100px
+img{
+    width: 650px;
+    margin-left: 5px;
+
 }
-.armoredcore{
-    border-style: solid;
-    display: inline;
-    padding: 3%;
-    margin: 100%;
-    margin-top: 100px
+
+div.Sekirotexte, div.actexte, div.dstexte{
+    margin-left: 675px;
+    padding-top: 5px;
     
 }
-
-.soulslike{
-    border-style: solid;
-    display: inline;
-    padding: 3%;
-    margin: 100%;
-    margin-top: 100px
-
+img.Sekiro, img.ac, img.ds{
+    float: left;
+    margin-left: 5px;
+    margin-top: 75px;
+    border-right-style: solid;
+    padding-right: 10px;
+    width: 650px;
+    height: auto;
+}
+div.eldentexte, div.ac2texte, div.ds2texte{
+    
+    margin-right: 675px;
+    padding-top: 5px;
+}
+img.eldenring, img.ac2, img.ds2{
+    float: right;
+    margin-right: 5px;
+    margin-top: 75px;
+    border-left-style: solid;
+    padding-left: 10px;
+    width: 650px;
+    
+}
+div.Bloodtexte{
+    margin-left: 675px;
+    padding-top: 5px;
+   
+   
+}
+img.Bloodb{
+    float: left;
+    margin-left: 5px;
+    margin-top: 75px;
+    border-right-style: solid;
+    padding-right: 10px;
+    width: 650px;
+    height: 500px;
 }
 
 p{
-    margin-bottom: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #C7C7C7;
 }
+   
+a{
+    color:#C7C7C7;
+}
+
+div.Sekiro, div.Bloodb, div.eldenring, div.ac, div.ac2, div.ds, div.ds2{
+    border-style: solid;
+    margin-top: 15px;
+    padding: 5px;
+    background-color: #181818;
+    height: auto;
+    
+}
+
+
+button{
+    color: #C7C7C7;
+    background-color: #181818;
+    width: 200px;
+    height: 200px;
+    margin: 5%;
+    font-family: Bookman, URW Bookman L, serif;
+    font-size: x-large;
+}
+button.retour{
+    
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 2px 16px;
+    height: 32px;
+    min-width: 60px;
+    min-height: 32px;
+    color: #C7C7C7;
+    background-color: #181818;
+    margin:center;
+
+    
+    
+    
+    
+        
+}
+
+div.plan{
+    display: inline-flex;
+   
+}
+
+footer{
+    padding-left: 50px;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    border-top: #C7C7C7;
+    border-top-style: solid;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 12px;
+    
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+
